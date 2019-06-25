@@ -18,7 +18,6 @@ router.route('/characters/:id')
     .get((req,res,err) =>{
         //route a single character here
         res.json(seeds[0]);
-
     })
     .put((req,res,err) =>{
         // update a character

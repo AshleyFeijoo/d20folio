@@ -22,3 +22,7 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.NavBar{
+  background: rgba(255, 217, 0, 0.603)!important;
+  border-bottom: .1em solid rgba(255, 95, 31, 0.582)!important;
+}
