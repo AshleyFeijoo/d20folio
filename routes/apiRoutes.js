@@ -7,7 +7,7 @@ router.route('/characters')
         //route all characters here
         // res.json(seeds);
         db.Character.find({})
-        .sort({_id: -1})
+            .sort({_id: -1})
             .then(characters => {console.log("Got Characters", characters); return characters})
             .then(characters => res.json(characters))
             .catch(error => res.json(500, error))

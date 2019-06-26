@@ -9,11 +9,11 @@
 
 body{
   margin: 0 auto;
-  background: #BBD2C5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-font-family: 'B612 Mono', monospace!important;
-
+  font-family: 'B612 Mono'!important; 
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 a{
   color: rgb(78, 78, 78)!important;
