@@ -3,8 +3,9 @@ import logo from "./d20-folio-logo-1.png";
 import "./App.css";
 import { Jumbotron } from "reactstrap";
 import { BrowserRouter, Route } from "react-router-dom";
-import NavigationBar from "./components/Navbar"
-import ViewAllCharacters from './pages/ViewAllCharacters'
+import NavigationBar from "./components/Navbar";
+import ViewAllCharacters from './pages/ViewAllCharacters';
+import EditCharacter from './pages/EditCharacter'
 class App extends Component {
   render() {
     return (
@@ -13,7 +14,7 @@ class App extends Component {
           <NavigationBar className="">Navbar here</NavigationBar>
             <Route exact path="/" component={ViewAllCharacters} />
             <Route exact path="/mychars" component={'ewy'}/>
-            <Route exact path="/new" component={'o'}/>
+            <Route exact path="/new" component={() => <EditCharacter new={true}/>}/>
             <Route exact path="/edit/:id" component={'Yee'}/>
         </BrowserRouter>
       </div>
