@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import logo from "./d20-folio-logo-1.png";
+// import logo from "./d20-folio-logo-1.png";
 import "./App.css";
-import { Jumbotron } from "reactstrap";
 import { BrowserRouter, Route } from "react-router-dom";
 import NavigationBar from "./components/Navbar";
 import ViewAllCharacters from './pages/ViewAllCharacters';

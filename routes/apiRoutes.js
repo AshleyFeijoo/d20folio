@@ -5,13 +5,23 @@ const seeds =           require ('../charSeeds.json');
 router.route('/characters')
     .get( (req,res,err) => {
         //route all characters here
-        res.json(seeds);
+        // res.json(seeds);
+        db.Character.find({})
+        .sort({_id: -1})
+            .then(characters => {console.log("Got Characters", characters); return characters})
+            .then(characters => res.json(characters))
+            .catch(error => res.json(500, error))
     });
 
 router.route('/character')
     .post((req,res,err) =>{
         //make a new character
-        res.send("");
+        // res.send("");
+        const newChar = req.body;
+        db.Character.create(newChar)
+            .then(character => res.json(character))
+            .catch(error => res.json(500, error))
+
     });
 
 router.route('/characters/:id')
