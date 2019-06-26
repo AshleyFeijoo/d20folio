@@ -7,6 +7,18 @@
   height: 400px;
 }
 
+body{
+  margin: 0 auto;
+  background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'B612 Mono', monospace!important;
+
+}
+a{
+  color: rgb(78, 78, 78)!important;
+}
+
 .App-header {
   background-color: #222;
   height: 150px;
@@ -23,6 +35,22 @@
   to { transform: rotate(360deg); }
 }
 .NavBar{
-  background: rgba(255, 217, 0, 0.603)!important;
-  border-bottom: .1em solid rgba(255, 95, 31, 0.582)!important;
+  margin-bottom: 2em;
+  background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: contain;
+box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+
 }
+
+.jumbotron{
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+}
+
+
+.charImg{
+  width: 10em;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+}
+
