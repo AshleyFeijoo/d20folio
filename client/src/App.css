@@ -13,10 +13,20 @@ body{
   background: #3C3B3F;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-image: url('./components/CharacterCard/caves_by_alynspiller_d2qj216-pre.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+
 }
 a{
   color: rgb(78, 78, 78)!important;
+}
+
+.d20{
+  background-image: url('https://fontmeme.com/permalink/190627/df42c3ebb859e1f8a108358e7f4d586a.png');
+  background-size: 5em;
+  background-repeat: no-repeat;
 }
 
 .App-header {
@@ -30,16 +40,19 @@ a{
   font-size: large;
 }
 
+h1,h3{
+  color:rgb(156, 156, 156);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 .NavBar{
   margin-bottom: 2em;
-  background: #ADA996;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: contain;
+
+    background-color:black;
+
 box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
 
 }
