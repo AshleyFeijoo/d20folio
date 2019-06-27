@@ -154,18 +154,25 @@ export default class EditCharacter extends React.Component{
                                 </div>
                             </FormGroup>
                             <FormGroup className="col-xs-12 col-md-3 p-0 text-center">
-                                <Label>Wisdom</Label>
-                                <Input
-                                    name = "Wis"
-                                    value={this.state.WIS}
-                                    onChange={this.handleInput("WIS")}
-                                    type="number"
-                                    min="3" max="18"
-                                    className="p-0 text-center"
-                                />
+                            <div className="label-head p-2 mx-auto">
+                            <Label className="text-center m-0 border-bottom border-dark">Wisdom</Label>
+                            </div>
+                            <div className="inputParent rounded p-1 mx-auto text-center">
+                                    <Input
+                                        name = "Wis"
+                                        value={this.state.WIS}
+                                        onChange={this.handleInput("WIS")}
+                                        type="number"
+                                        min="3" max="18"
+                                        className="p-0 text-center"
+                                    />
+                                </div>
                             </FormGroup>
                             <FormGroup className="col-xs-12 col-md-3 p-0 text-center">
+                            <div className="label-head p-2 mx-auto">
                                 <Label>Charisma</Label>
+                                </div>
+                                <div className="inputParent rounded p-1 mx-auto text-center">
                                 <Input
                                     name = "Cha"
                                     value={this.state.CHA}
@@ -173,7 +180,7 @@ export default class EditCharacter extends React.Component{
                                     type="number"
                                     min="3" max="18"
                                     className="p-0 text-center"
-                                />
+                                /></div>
                             </FormGroup>
                         </div>
                    
