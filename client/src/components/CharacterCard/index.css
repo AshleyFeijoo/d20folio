@@ -1,0 +1,113 @@
+
+
+.card{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    background-size: cover;
+    border: none!important;
+    margin: 0 auto;
+}
+
+
+.card-body{
+    background-image: url('./caves_by_alynspiller_d2qj216-pre.jpg');
+    background-size: cover;
+    
+}
+
+.jumbotron{
+    color:whitesmoke;
+    background-color:rgba(0, 0, 0, 0.712);
+}
+.card-title,
+.cardTitles{
+    margin:0;
+    background: rgba(110, 93, 93, 0.562);
+    background-image:url('./cork-wallet.png');
+}
+
+:deep .card-title,
+.cardTitles{
+    /* padding: none; */
+    margin-bottom: 2em!important;
+}
+
+.bannerImg{
+    width: 10em;
+    margin-left:-100px;
+    margin-right: -100px;
+}
+
+.card-subtitle{
+    
+    padding:1em;
+    margin-botton:2em;
+}
+@media only screen and (min-width: 851px) {
+    .side-crop {
+        max-height: 18em;
+        max-width: 100%;
+        overflow: hidden; 
+        margin: 0;
+        padding: 2em;
+        text-align:center;
+   
+       }
+   .sideCropImg { max-width: initial; }
+  }
+
+.card-img-top{
+    background-color:white;
+}
+
+.col-md-6.bg-light{
+    width:2em;
+}
+.card-title{
+    -webkit-backdrop-filter: blur(50px);
+    text-align:center;
+    margin: .3em auto;
+
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    font-variant-caps: all-petite-caps;
+    color: #c7c7d2;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 0 auto;
+
+    
+}
+
+.label-head{
+    background: rgb(0, 0, 0);
+    color:rgb(138, 138, 138);
+    text-align:left;
+    border-radius:.5em;
+    font-variant: small-caps
+
+}
+.inputParent{
+    /* background: white; */
+border: .3em solid rgb(0, 0, 0);
+padding:none!important;
+margin:0important;
+border-radius:.5em;
+}
+.form-control{
+    border-bottom: 2px solid rgb(202,202,202);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius:0;
+    background:transparent
+}
+.form-control:focus{
+    background:transparent!important;
+    box-shadow: none!important;
+    border-color: white;
+
+}
+
