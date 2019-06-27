@@ -5,8 +5,8 @@ import API from '../../util/API';
 
 export default class EditCharacter extends React.Component{
     state = {
-        name: "x",
-        imageUrl: "x",
+        name: "",
+        imageUrl: "",
 
         STR: "10",
         DEX: "10",

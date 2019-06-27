@@ -9,8 +9,9 @@
 
 
 .card-body{
-    background-image: url('./caves_by_alynspiller_d2qj216-pre.jpg');
+    /* background-image: url('./caves_by_alynspiller_d2qj216-pre.jpg'); */
     background-size: cover;
+    background-color:black;
     
 }
 
